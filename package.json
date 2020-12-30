@@ -1,0 +1,44 @@
+{
+  "name": "@btrb/sharec-config",
+  "description": "Sharec config for Bridgetown sites",
+  "homepage": "https://github.com/bt-rb/sharec-config#readme",
+  "version": "0.0.1",
+  "author": {
+    "email": "support@andrewm.codes",
+    "name": "Andrew Mason",
+    "url": "https://andrewm.codes"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bt-rb/sharec-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bt-rb/sharec-config/issues"
+  },
+  "keywords": [
+    "bridgetown",
+    "editorconfig",
+    "prettier",
+    "sharec",
+    "sharec-config"
+  ],
+  "dependencies": {
+    "sharec": "^2.7.1"
+  },
+  "devDependencies": {
+    "clean-publish": "^1.1.7"
+  },
+  "files": [
+    "!configs/node_modules",
+    "CHANGELOG.md",
+    "LICENSE",
+    "README.md",
+    "configs/*",
+    "package.json"
+  ],
+  "scripts": {
+    "postinstall": "sharec install"
+  },
+  "private": false,
+  "license": "MIT"
+}
